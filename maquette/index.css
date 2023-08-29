@@ -1,0 +1,1299 @@
+.photo-icon {
+  position: absolute;
+  top: 7425px;
+  left: 1746px;
+  width: 4249px;
+  height: 2385px;
+  object-fit: cover;
+}
+.clarityplay-solid-icon {
+  position: absolute;
+  top: 4428px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+}
+.div,
+.envolez-vous-vers {
+  position: absolute;
+  font-family: var(--font-neuropol);
+  display: inline-block;
+}
+.div {
+  top: 4613px;
+  left: 0;
+  font-size: 1300px;
+  color: rgba(39, 3, 89, 0.7);
+  text-align: center;
+  width: 5978px;
+  height: 2648px;
+}
+.envolez-vous-vers {
+  top: 175px;
+  left: calc(50% - 2581px);
+  color: var(--color-white);
+  width: 5091px;
+  height: 312px;
+}
+.osez-limpossible,
+.prt-pour-une {
+  position: absolute;
+  top: 583px;
+  left: calc(50% - 2372px);
+  font-size: var(--font-size-81xl);
+  font-weight: 500;
+  display: inline-block;
+  width: 4953px;
+  height: 141px;
+}
+.prt-pour-une {
+  top: 0;
+  left: calc(50% - 1107px);
+  font-size: var(--font-size-71xl);
+  width: 2143px;
+  height: 138px;
+}
+.texte-fond {
+  position: absolute;
+  top: 1315px;
+  left: calc(50% - 2507px);
+  width: 5162px;
+  height: 724px;
+  font-size: 250px;
+  color: var(--color-blueviolet-100);
+  font-family: var(--font-poppins);
+}
+.cest-parti {
+  position: relative;
+}
+.bouton-fond-inner,
+.cest-parti-wrapper,
+.questions-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cest-parti-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-blueviolet-100);
+  box-shadow: 0 1px 10px #3c49fe;
+  width: 835px;
+  height: 320px;
+  padding: var(--padding-101xl) var(--padding-161xl);
+  box-sizing: border-box;
+}
+.bouton-fond-inner,
+.questions-wrapper {
+  width: 355px;
+  height: 88px;
+}
+.bouton-fond-inner {
+  position: absolute;
+  top: 0;
+  left: 850px;
+  border-radius: 5px;
+  border: 3px solid var(--color-white);
+  box-sizing: border-box;
+  width: 835px;
+  height: 320px;
+  padding: var(--padding-101xl) var(--padding-161xl);
+}
+.bouton-fond {
+  position: absolute;
+  top: 2672px;
+  left: 2150px;
+  width: 1685px;
+  height: 320px;
+  font-size: var(--font-size-61xl);
+  font-family: var(--font-poppins);
+}
+.ronds-child,
+.ronds-item {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(250px);
+}
+.ronds-child {
+  top: -825px;
+  left: -942px;
+  background: linear-gradient(
+    180deg,
+    rgba(60, 73, 254, 0.15),
+    rgba(60, 73, 254, 0)
+  );
+  width: 2467px;
+  height: 2239px;
+}
+.ronds-item {
+  top: 1738px;
+  left: 4852px;
+  background-color: var(--color-blueviolet-200);
+  width: 2828px;
+  height: 2671px;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1150px;
+  height: 575px;
+}
+.reservez-en-un,
+.tous-savoir-sur {
+  position: absolute;
+  top: 350.01px;
+  left: 116.98px;
+  display: inline-block;
+  width: 972.2px;
+  height: 116.67px;
+}
+.reservez-en-un {
+  top: 126.96px;
+  font-size: var(--font-size-61xl);
+  font-family: var(--font-poppins);
+  width: 917.15px;
+  height: 196.98px;
+}
+.group-item,
+.vector-parent {
+  position: absolute;
+  width: 1150px;
+}
+.vector-parent {
+  top: 3891px;
+  left: 2140px;
+  height: 575px;
+  font-size: var(--font-size-26xl);
+}
+.group-item {
+  top: 0;
+  left: 0;
+  height: 517.74px;
+}
+.les-destinations {
+  margin: 0;
+}
+.plus-de-100 {
+  margin: 0;
+  font-size: var(--font-size-26xl);
+}
+.les-destinations-plus-container {
+  position: absolute;
+  top: 116px;
+  left: 132px;
+  display: inline-block;
+  width: 810px;
+  height: 423px;
+}
+.group-inner,
+.vector-group {
+  position: absolute;
+  height: 539px;
+}
+.vector-group {
+  top: 3891px;
+  left: 3350px;
+  width: 1150px;
+  font-size: var(--font-size-61xl);
+  font-family: var(--font-poppins);
+}
+.group-inner {
+  top: 0;
+  left: 0;
+  width: 1133px;
+}
+.span {
+  font-size: var(--font-size-16xl);
+}
+.conomisez-et-visitez-ces-desti {
+  margin: 0;
+  font-size: var(--font-size-26xl);
+  font-family: var(--font-inter);
+}
+.vente-flash-conomisez-container {
+  position: absolute;
+  top: 127px;
+  left: 0;
+  display: inline-block;
+  width: 1121px;
+  height: 369px;
+}
+.vector-container {
+  position: absolute;
+  top: 3891px;
+  left: 4617px;
+  width: 1133px;
+  height: 539px;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  font-family: var(--font-poppins);
+}
+.se-connecter {
+  position: relative;
+  font-weight: 500;
+}
+.se-connecter-wrapper {
+  position: absolute;
+  top: 280px;
+  left: 4315px;
+  width: 626px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-71xl);
+  color: var(--color-lightgray-100);
+}
+.cre-un-compte {
+  position: relative;
+  font-weight: 600;
+  text-shadow: 1px 4px 30px rgba(60, 73, 254, 0.2);
+}
+.cre-un-compte-wrapper {
+  position: absolute;
+  top: 263px;
+  left: 4987px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-blueviolet-100);
+  box-shadow: 0 1px 10px #3c49fe;
+  width: 900px;
+  height: 217px;
+  display: flex;
+  flex-direction: row;
+  padding: 60px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-71xl);
+}
+.a-propos,
+.text {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 362px;
+  height: 97px;
+}
+.a-propos {
+  top: 0;
+  left: 620px;
+  color: var(--color-lightgray-200);
+  width: 505px;
+  height: 103px;
+}
+.text-parent {
+  position: absolute;
+  top: 325px;
+  left: 2300px;
+  width: 1125px;
+  height: 111px;
+}
+.services,
+.services-wrapper {
+  position: absolute;
+  width: 428px;
+  height: 105px;
+}
+.services {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.services-wrapper {
+  top: 331px;
+  left: 2353px;
+  color: var(--color-lightgray-200);
+}
+.rservations {
+  position: absolute;
+  top: 331px;
+  left: 3531px;
+  font-size: var(--font-size-71xl);
+  font-weight: 500;
+  color: var(--color-lightgray-100);
+}
+.ellipse-div,
+.ronds-inner {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(250px);
+}
+.ronds-inner {
+  top: 2641px;
+  left: -1405px;
+  background-color: var(--color-blueviolet-200);
+  width: 3078px;
+  height: 2499px;
+}
+.ellipse-div {
+  top: 3252px;
+  left: -1348px;
+  background-color: rgba(60, 73, 254, 0.2);
+  width: 2696px;
+  height: 2427px;
+}
+.home {
+  top: 326px;
+  left: 1393px;
+  display: inline-block;
+  width: 320px;
+  height: 82px;
+}
+.home,
+.plantes,
+.ronds {
+  position: absolute;
+}
+.plantes {
+  top: 326px;
+  left: 1815px;
+  color: var(--color-lightgray-100);
+  display: inline-block;
+  width: 444px;
+  height: 97px;
+  text-shadow: 0 4px 4px #000;
+}
+.ronds {
+  top: -10px;
+  left: -11px;
+  width: 6000px;
+  height: 4409px;
+  overflow: hidden;
+  background-image: url(./public/ronds@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: var(--font-inter);
+}
+.page-accueil-child {
+  position: absolute;
+  top: 159px;
+  left: 36px;
+  width: 944px;
+  height: 422px;
+  object-fit: cover;
+}
+.page-accueil-item {
+  position: absolute;
+  top: -115px;
+  left: 3724px;
+}
+.astronote-mission-4-removebg-p-icon {
+  position: absolute;
+  top: 1408px;
+  left: -2299px;
+  width: 1432px;
+  height: 1398px;
+  object-fit: cover;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5657.37px;
+  height: 4867px;
+}
+.nous-sommes-les {
+  font-size: var(--font-size-121xl);
+  font-family: var(--font-neuropol);
+}
+.blank-line4 {
+  font-size: var(--font-size-111xl);
+}
+.blank-line3 {
+  font-family: var(--font-poppins);
+}
+.blank-line8 {
+  font-size: 165px;
+}
+.blank-line6 {
+  line-height: 180px;
+}
+.o {
+  font-family: var(--font-inter);
+}
+.offrant-des-voyages-dexceptio2 {
+  letter-spacing: 0.1em;
+}
+.blank-line9 {
+  margin: 0;
+  font-size: var(--font-size-81xl);
+}
+.nous-sommes-lincarnation {
+  margin: 0;
+  letter-spacing: 0.1em;
+  line-height: 180px;
+}
+.blank-line10 {
+  margin: 0;
+  font-size: var(--font-size-81xl);
+  letter-spacing: 0.3em;
+  line-height: 100px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.blank-line11 {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+}
+.blank-line12 {
+  margin: 0;
+  font-size: var(--font-size-131xl);
+}
+.blank-line13 {
+  margin: 0;
+  font-family: var(--font-inter);
+}
+.blank-line18 {
+  line-height: 120px;
+}
+.blank-line16 {
+  margin: 0;
+  font-size: var(--font-size-101xl);
+}
+.nous-sommes-les-container {
+  position: absolute;
+  top: 814px;
+  left: 162px;
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
+  width: 5317px;
+  height: 3641px;
+  font-family: var(--font-roboto-condensed);
+}
+.a-propos1,
+.nos-missions {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-propos1 {
+  top: 0;
+  left: 147px;
+  font-size: 170px;
+  width: 1081.45px;
+  height: 470.99px;
+}
+.nos-missions {
+  top: 5391px;
+  left: 4152px;
+  font-size: var(--font-size-131xl);
+  width: 1329px;
+  height: 430px;
+}
+.group-div {
+  position: absolute;
+  top: 9465px;
+  left: 342px;
+  width: 5657.37px;
+  height: 5821px;
+  text-align: center;
+  font-size: var(--font-size-121xl);
+  font-family: var(--font-neuropol);
+}
+.page-accueil-inner {
+  position: absolute;
+  top: 15957px;
+  left: 342px;
+  width: 5658px;
+  height: 3277px;
+}
+.nous-sommes-bien-plus-quune-a1 {
+  line-height: 100px;
+}
+.nous-sommes-bien-plus-quune-a {
+  margin: 0;
+  font-size: var(--font-size-101xl);
+  font-family: var(--font-neuropol);
+}
+.blank-line21 {
+  letter-spacing: 0.3em;
+}
+.blank-line26 {
+  letter-spacing: 0.05em;
+  line-height: 130px;
+}
+.blank-line25 {
+  margin: 0;
+  font-size: var(--font-size-111xl);
+}
+.la-mission-de {
+  margin: 0;
+  letter-spacing: 0.3em;
+  line-height: 160px;
+}
+.nous-sommes-bien-container {
+  position: absolute;
+  top: 16529px;
+  left: 539px;
+  display: inline-block;
+  width: 5247px;
+  height: 1863px;
+  font-size: var(--font-size-141xl);
+  font-family: var(--font-roboto-condensed);
+}
+.bien-etre-et-et-personnels1 {
+  line-height: 150px;
+}
+.bien-etre-et-et-personnels {
+  margin: 0;
+  font-family: var(--font-neuropol);
+}
+.nous-avons-quip {
+  font-weight: 500;
+}
+.nous-avons-quip-notre-vaisse {
+  margin: 0;
+  font-family: var(--font-roboto-condensed);
+}
+.blank-line65 {
+  line-height: 130px;
+  font-weight: 500;
+}
+.blank-line63 {
+  margin: 0;
+  font-size: var(--font-size-111xl);
+  font-family: var(--font-inter);
+}
+.blank-line69 {
+  margin: 0;
+  font-size: var(--font-size-xl);
+}
+.bien-etre-et-container {
+  position: absolute;
+  top: 1015px;
+  left: 0;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 2678px;
+  height: 3684px;
+}
+.q2-1-icon,
+.q3-1-icon {
+  position: absolute;
+  top: 0;
+  left: 3812px;
+  width: 940px;
+  height: 718px;
+  object-fit: cover;
+}
+.q2-1-icon {
+  top: 141px;
+  left: 245px;
+  width: 1105px;
+  height: 577px;
+}
+.bien-etre-et-et-personnels-nou-parent {
+  position: absolute;
+  top: 21101px;
+  left: 184px;
+  width: 4752px;
+  height: 4699px;
+}
+.page-accueil-child1 {
+  position: absolute;
+  top: 9729px;
+  left: 504px;
+  width: 1042px;
+  height: 81px;
+}
+.page-accueil-child2,
+.rectangle-div {
+  position: absolute;
+  top: 15099px;
+  left: 4510px;
+  width: 1314px;
+  height: 82px;
+}
+.rectangle-div {
+  top: 31130px;
+  left: 0;
+  background-color: var(--color-black);
+  width: 5363px;
+  height: 2704px;
+}
+.page-accueil-child3,
+.page-accueil-child4,
+.star-icon {
+  position: absolute;
+  top: 33314.47px;
+  left: 1338.74px;
+  width: 116.89px;
+  height: 80.08px;
+}
+.page-accueil-child3,
+.page-accueil-child4 {
+  left: 1685.15px;
+}
+.page-accueil-child4 {
+  left: 2029.57px;
+}
+.page-accueil-child5,
+.page-accueil-child6,
+.page-accueil-child7 {
+  position: absolute;
+  top: 33314.47px;
+  left: 2404.78px;
+  width: 116.89px;
+  height: 80.08px;
+}
+.page-accueil-child6,
+.page-accueil-child7 {
+  left: 4624.24px;
+}
+.page-accueil-child7 {
+  left: 5273.09px;
+}
+.page-accueil-child10,
+.page-accueil-child8,
+.page-accueil-child9 {
+  position: absolute;
+  top: 33314.47px;
+  left: 4979.83px;
+  width: 116.89px;
+  height: 80.08px;
+}
+.page-accueil-child10,
+.page-accueil-child9 {
+  left: 2778.99px;
+}
+.page-accueil-child10 {
+  left: 3143.02px;
+}
+.page-accueil-child11,
+.page-accueil-child12,
+.page-accueil-child13 {
+  position: absolute;
+  top: 33314.47px;
+  left: 3506.06px;
+  width: 116.89px;
+  height: 80.08px;
+}
+.page-accueil-child12,
+.page-accueil-child13 {
+  left: 3870.1px;
+}
+.page-accueil-child13 {
+  left: 4266.66px;
+}
+.page-accueil-child14 {
+  position: absolute;
+  top: 27536px;
+  left: 0;
+  width: 5999px;
+  height: 9598px;
+}
+.parceque-votre-avis {
+  margin: 0;
+  font-size: 240px;
+  font-family: var(--font-neuropol);
+}
+.nous-avons-repertorier {
+  margin: 0;
+  font-weight: 600;
+}
+.chef-de-projet,
+.clmence-bernard,
+.directeur,
+.directrice-adjointe,
+.helene-saito,
+.parceque-votre-avis-container,
+.xavier-dumas {
+  position: absolute;
+  top: 29632px;
+  left: 193px;
+  display: inline-block;
+  width: 5722px;
+  height: 1332px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: var(--font-size-131xl);
+}
+.chef-de-projet,
+.clmence-bernard,
+.directeur,
+.directrice-adjointe,
+.helene-saito,
+.xavier-dumas {
+  top: 44471px;
+  left: 2340px;
+  font-weight: 600;
+  width: 1144px;
+  height: 250px;
+}
+.chef-de-projet,
+.clmence-bernard,
+.directeur,
+.directrice-adjointe,
+.helene-saito {
+  left: 501px;
+}
+.chef-de-projet,
+.clmence-bernard,
+.directeur,
+.directrice-adjointe {
+  left: 4237px;
+  width: 1458px;
+}
+.chef-de-projet,
+.directeur,
+.directrice-adjointe {
+  top: 44822px;
+  left: 2763px;
+  font-size: var(--font-size-41xl);
+  width: 293px;
+  height: 112px;
+}
+.chef-de-projet,
+.directrice-adjointe {
+  top: 44840px;
+  left: 4614px;
+  width: 442px;
+  height: 70px;
+}
+.directrice-adjointe {
+  top: 44800px;
+  left: 621px;
+  width: 770px;
+  height: 112px;
+}
+.blank-line71 {
+  margin: 0;
+  font-size: var(--font-size-131xl);
+  font-weight: 600;
+}
+.lequipe-croissiere-sidrale {
+  margin: 0;
+  font-size: var(--font-size-181xl);
+  font-family: var(--font-neuropol);
+}
+.blank-line73 {
+  font-weight: 600;
+}
+.lorem-ipsum-dolor-container {
+  position: absolute;
+  top: 39917px;
+  left: -7px;
+  text-align: center;
+  display: inline-block;
+  width: 6000px;
+  height: 1302px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: var(--font-size-61xl);
+}
+.page-accueil-child15 {
+  position: absolute;
+  top: 31885px;
+  left: 81px;
+  width: 1303px;
+  height: 1344px;
+}
+.page-accueil-child16 {
+  position: absolute;
+  top: 31892px;
+  left: 1570px;
+  width: 1305px;
+  height: 1342px;
+}
+.ellipse-icon,
+.page-accueil-child17 {
+  position: absolute;
+  top: 31983.7px;
+  left: 166.93px;
+  width: 1117.46px;
+  height: 1193.57px;
+}
+.ellipse-icon {
+  top: 31210px;
+  left: 415px;
+  border-radius: 50%;
+  width: 475px;
+  height: 475px;
+  object-fit: cover;
+}
+.exellecente-compagnie-je-container,
+.karen-akkermann {
+  position: absolute;
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+}
+.karen-akkermann {
+  top: 31939px;
+  left: 415px;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-roboto);
+  text-align: center;
+  width: 574px;
+  height: 136px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.exellecente-compagnie-je-container {
+  top: 32213px;
+  left: 230px;
+  font-size: 55px;
+  font-family: var(--font-inter);
+  width: 1012px;
+  height: 809px;
+}
+.page-accueil-child18 {
+  position: absolute;
+  top: 31989.67px;
+  left: 1681.67px;
+  width: 1117.46px;
+  height: 1193.57px;
+}
+.page-accueil-child19 {
+  position: absolute;
+  top: 31210px;
+  left: 1892px;
+  border-radius: 50%;
+  width: 475px;
+  height: 475px;
+  object-fit: cover;
+}
+.huguette-francois,
+.jadore-je-la-container {
+  position: absolute;
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+}
+.huguette-francois {
+  top: 31954px;
+  left: 1860px;
+  font-family: var(--font-roboto);
+  text-align: center;
+  width: 644.4px;
+  height: 50.73px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.jadore-je-la-container {
+  top: 32255px;
+  left: 1737px;
+  font-family: var(--font-inter);
+  width: 956px;
+  height: 749px;
+}
+.group-icon,
+.page-accueil-child20 {
+  position: absolute;
+  top: 31900.15px;
+  left: 3057.59px;
+  width: 1303.7px;
+  height: 1342.77px;
+}
+.group-icon {
+  top: 31980.73px;
+  left: 3169.34px;
+  width: 1117.46px;
+  height: 1193.57px;
+}
+.page-accueil-child21 {
+  position: absolute;
+  top: 31210px;
+  left: 3463px;
+  border-radius: 50%;
+  width: 475px;
+  height: 475px;
+  object-fit: cover;
+}
+.aurelien-boks,
+.parfait-pour-les-container {
+  position: absolute;
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+}
+.aurelien-boks {
+  top: 31958px;
+  left: 3493px;
+  font-family: var(--font-roboto);
+  text-align: center;
+  width: 465.61px;
+  height: 50.73px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.parfait-pour-les-container {
+  top: 32258.23px;
+  left: 3268.91px;
+  font-family: var(--font-inter);
+  width: 998.26px;
+  height: 674.37px;
+}
+.page-accueil-child22 {
+  position: absolute;
+  top: 31897.17px;
+  left: 4538.81px;
+  width: 1303.7px;
+  height: 1369.62px;
+}
+.page-accueil-child23 {
+  position: absolute;
+  top: 31979.36px;
+  left: 4650.56px;
+  width: 1117.46px;
+  height: 1217.44px;
+}
+.page-accueil-child24 {
+  position: absolute;
+  top: 31210px;
+  left: 5040px;
+  border-radius: 50%;
+  width: 475px;
+  height: 475px;
+  object-fit: cover;
+}
+.eric-merle-franc,
+.exellecente-appliaction-je-container {
+  position: absolute;
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+}
+.eric-merle-franc {
+  top: 31935px;
+  left: 5035px;
+  text-align: center;
+  width: 480px;
+  height: 70px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.exellecente-appliaction-je-container {
+  top: 32294.04px;
+  left: 4724.05px;
+  font-family: var(--font-inter);
+  width: 998.26px;
+  height: 662.43px;
+}
+.page-accueil-child25 {
+  position: absolute;
+  top: 25992px;
+  left: 0;
+  border-radius: 20px;
+  width: 2613px;
+  height: 2465px;
+}
+.page-accueil-child26 {
+  position: absolute;
+  top: 27167px;
+  left: 298px;
+  border-radius: 50%;
+  width: 1184px;
+  height: 1098px;
+  object-fit: cover;
+}
+.ils-nous-font {
+  position: absolute;
+  top: 34458px;
+  left: 0;
+  font-size: var(--font-size-181xl);
+  font-family: var(--font-neuropol);
+  text-align: center;
+  display: inline-block;
+  width: 6000px;
+  height: 370px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.blue-origin-logo,
+.galactic-suite-logo {
+  position: absolute;
+  top: 35643px;
+  left: 120px;
+  width: 693px;
+  height: 623px;
+  object-fit: cover;
+}
+.blue-origin-logo {
+  top: 35751px;
+  left: 3600px;
+  width: 1018px;
+  height: 485px;
+}
+.allo-1-icon,
+.esa-1-icon,
+.virgin-galatic-logo {
+  position: absolute;
+  top: 35613px;
+  left: 2299px;
+  width: 1032px;
+  height: 623px;
+  object-fit: cover;
+}
+.allo-1-icon,
+.esa-1-icon {
+  top: 35725px;
+  left: 4915px;
+  width: 860px;
+  height: 541px;
+}
+.allo-1-icon {
+  top: 35891px;
+  left: 955px;
+  width: 1193px;
+  height: 345px;
+}
+.line-div,
+.line-icon {
+  position: absolute;
+  top: 37133.97px;
+  left: 1420px;
+  width: 17.5px;
+  height: 2265.03px;
+}
+.line-div {
+  top: 37122.99px;
+  left: 2973.25px;
+  border-right: 10px solid #4a08a6;
+  box-sizing: border-box;
+  width: 10px;
+  height: 2281.01px;
+}
+.page-accueil-child27 {
+  position: absolute;
+  top: 37133.96px;
+  left: 4539px;
+  width: 18.5px;
+  height: 2265.04px;
+}
+.expeditions,
+.site-toil,
+.structure-plac-tourisme,
+.voyageurs-conquis {
+  position: absolute;
+  top: 38121px;
+  left: 291px;
+  font-weight: 500;
+  font-family: var(--font-roboto-slab);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 667px;
+  height: 238px;
+}
+.site-toil,
+.structure-plac-tourisme,
+.voyageurs-conquis {
+  left: 1697px;
+  width: 1012px;
+}
+.site-toil,
+.structure-plac-tourisme {
+  left: 3049px;
+  width: 1437px;
+  height: 187px;
+}
+.site-toil {
+  top: 38067px;
+  left: 4836px;
+  width: 667px;
+  height: 238px;
+}
+.homme-affaires-1,
+.homme-affaires-2,
+.homme-affaires-3 {
+  position: absolute;
+  top: 41651px;
+  left: 1994px;
+  width: 1846px;
+  height: 2302px;
+  object-fit: cover;
+}
+.homme-affaires-2,
+.homme-affaires-3 {
+  left: 0;
+  width: 1845px;
+}
+.homme-affaires-3 {
+  top: 41646px;
+  left: 3979px;
+  width: 1999px;
+  height: 2307px;
+}
+.souhaitez-vous-nous-parlez-du {
+  margin: 0;
+  font-size: var(--font-size-181xl);
+  font-family: var(--font-roboto-slab);
+}
+.nous-contactez-souhaitez-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 2137px;
+  height: 2733px;
+}
+.la-newsletter,
+.nous-contactez {
+  position: absolute;
+  top: 45828px;
+  left: 203px;
+  width: 2137px;
+  height: 2733px;
+  font-family: var(--font-roboto-condensed);
+}
+.la-newsletter {
+  top: 45884px;
+  left: 5026px;
+  display: inline-block;
+  font-family: var(--font-inter);
+  width: 666px;
+  height: 307px;
+}
+.footer-child {
+  position: absolute;
+  top: 0;
+  left: 55px;
+  background-color: #121823;
+  width: 6000px;
+  height: 3987px;
+}
+.cr-blanc-1 {
+  position: absolute;
+  top: 1033px;
+  left: 1484px;
+  width: 0;
+  height: 0;
+  object-fit: cover;
+}
+.lentreprise-carrieres-aivs-container,
+.vous-informez-mes-container {
+  position: absolute;
+  top: 130px;
+  left: 460px;
+  display: inline-block;
+  width: 782px;
+  height: 1612px;
+}
+.vous-informez-mes-container {
+  top: 204px;
+  left: 1815px;
+  width: 978px;
+  height: 1538px;
+}
+.partenariat-devenir-partenaire-container {
+  position: absolute;
+  top: 218px;
+  left: 3266px;
+  display: inline-block;
+  width: 984px;
+  height: 1462px;
+}
+.croisiereintersidrales-tout,
+.nos-engagements-accessibilit-container {
+  position: absolute;
+  top: 269px;
+  left: 4730px;
+  display: inline-block;
+  width: 983px;
+  height: 1333px;
+}
+.croisiereintersidrales-tout {
+  top: 3527px;
+  left: 2139px;
+  font-family: var(--font-roboto-slab);
+  width: 1929px;
+  height: 148px;
+}
+.logo-croissiere-intersidrale {
+  position: absolute;
+  top: 1850px;
+  left: 62px;
+  width: 3239px;
+  height: 1718px;
+  object-fit: cover;
+}
+.nous-contacter {
+  margin: 0;
+  font-size: var(--font-size-81xl);
+  font-family: var(--font-roboto-condensed);
+}
+.nous-contacter-avenue-container {
+  position: absolute;
+  top: 2000px;
+  left: 3266px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 2573px;
+  height: 1224px;
+  font-family: var(--font-inter);
+}
+.footer {
+  position: absolute;
+  top: 48989px;
+  left: -62px;
+  width: 6055px;
+  height: 3987px;
+  font-size: var(--font-size-61xl);
+  font-family: var(--font-roboto-condensed);
+}
+.bouton-suivant-icon {
+  position: absolute;
+  top: 33406.6px;
+  left: 5524.41px;
+  width: 314px;
+  height: 314px;
+}
+.etoiles-avis-icon {
+  position: absolute;
+  top: 32050.33px;
+  left: 458.11px;
+  width: 5023.77px;
+  height: 132.07px;
+}
+.blank-line117 {
+  margin: 0;
+  font-size: var(--font-size-101xl);
+  font-family: var(--font-poppins);
+}
+.notre-technologie-de-pointe-ut1 {
+  letter-spacing: 0.1em;
+  line-height: 120px;
+}
+.a-bord,
+.a-voyage-dexception-container {
+  position: absolute;
+  font-family: var(--font-neuropol);
+  display: inline-block;
+}
+.a-voyage-dexception-container {
+  top: 22116px;
+  left: 2934px;
+  white-space: pre-wrap;
+  width: 2849px;
+  height: 3794px;
+}
+.a-bord {
+  top: 20362px;
+  left: calc(50% - 1994.04px);
+  font-size: var(--font-size-101xl);
+  line-height: 150px;
+  width: 3987px;
+  height: 281px;
+}
+.page-accueil {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 52976px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
