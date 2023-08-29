@@ -1,20 +1,20 @@
-Tout d'abord nous devons installer le serveur applicatif :
-
+#Tout d'abord nous devons installer le serveur applicatif :
+```
 sudo apt-get install nginx
-
-Ensuite on active le service :
+```
+#Ensuite on active le service :
 
 sudo systemctl status nginx
 
-il faut installer php-fpm, et les autres packages au cas où pour que nginx puisse gérer les pages php :
+#il faut installer php-fpm, et les autres packages au cas où pour que nginx puisse gérer les pages php :
 
 sudo apt install php php-cli php-fpm php-json php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
 
-on utilise cette commande pour vérifier que le service est bien installé et le daemon est actif :
+#on utilise cette commande pour vérifier que le service est bien installé et le daemon est actif :
 
 systemctl status php*-fpm.service
 
-il faut générer les clefs et certificat pour sécuriser la connexion https :
+#il faut générer les clefs et certificat pour sécuriser la connexion https :
 
 sudo apt install openssl
 
@@ -24,7 +24,7 @@ openssl req -new -key /etc/ssl/private/private.key -out /etc/ssl/certs/serveur.c
 
 openssl x509 -req -days 365 -in /etc/ssl/certs/serveur.csr -signkey /etc/ssl/private/private.key -out /etc/ssl/certs/serveur.crt
 
-Il faut maintenant configurer nginx pour déployer le site en éditant le fichier de configuration avec la commande  /etc/nginx/sites-available/default que l'on modifiera comme tel :
+#Il faut maintenant configurer nginx pour déployer le site en éditant le fichier de configuration avec la commande  /etc/nginx/sites-available/default que l'on modifiera comme tel :
 
 server {
     # port d'écoute IPV4
