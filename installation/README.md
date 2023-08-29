@@ -5,22 +5,22 @@
 ```
 sudo apt-get install nginx
 ```
-` `
+&NewLine;
 ## Ensuite on active le service :
 ```
 sudo systemctl status nginx
 ```
-` `
+&NewLine;
 ## il faut installer php-fpm, et les autres packages au cas où pour que nginx puisse gérer les pages php :
 ```
 sudo apt install php php-cli php-fpm php-json php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
 ```
-` `
+&NewLine;
 ## on utilise cette commande pour vérifier que le service est bien installé et le daemon est actif :
 ```
 systemctl status php*-fpm.service
 ```
-` `
+&NewLine;
 ## il faut générer les clefs et certificats pour sécuriser la connexion https :
 ```
 sudo apt install openssl
@@ -34,7 +34,7 @@ openssl req -new -key /etc/ssl/private/private.key -out /etc/ssl/certs/serveur.c
 ```
 openssl x509 -req -days 365 -in /etc/ssl/certs/serveur.csr -signkey /etc/ssl/private/private.key -out /etc/ssl/certs/serveur.crt
 ```
-` `
+&NewLine;
 ## Il faut maintenant configurer nginx pour déployer le site en éditant le fichier de configuration avec la commande  /etc/nginx/sites-available/default que l'on modifiera comme tel :
 ```
 server {
