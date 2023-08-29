@@ -78,11 +78,6 @@ server {
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include fastcgi_params;
     }
-
-    #traitement de l'URI: ce qui suit le nom de domaine
-    location / {
-        try_files $uri $uri/ =404;
-}
 }
 ```
 &NewLine;
