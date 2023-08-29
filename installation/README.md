@@ -35,7 +35,7 @@ sudo openssl req -new -key /etc/ssl/private/private.key -out /etc/ssl/certs/serv
 sudo openssl x509 -req -days 365 -in /etc/ssl/certs/serveur.csr -signkey /etc/ssl/private/private.key -out /etc/ssl/certs/serveur.crt
 ```
 &NewLine;
-## Il faut maintenant configurer nginx pour déployer le site en éditant le fichier de configuration avec la commande  /etc/nginx/sites-available/default que l'on modifiera comme tel :
+## Il faut maintenant configurer nginx pour déployer le site en éditant /etc/nginx/sites-available/default :
 ```
 server {
     #port d'écoute IPV4
