@@ -26,13 +26,13 @@ systemctl status php*-fpm.service
 sudo apt install openssl
 ```
 ```
-openssl genrsa -out /etc/ssl/private/private.key 4096
+sudo openssl genrsa -out /etc/ssl/private/private.key 4096
 ```
 ```
-openssl req -new -key /etc/ssl/private/private.key -out /etc/ssl/certs/serveur.csr
+sudo openssl req -new -key /etc/ssl/private/private.key -out /etc/ssl/certs/serveur.csr
 ```
 ```
-openssl x509 -req -days 365 -in /etc/ssl/certs/serveur.csr -signkey /etc/ssl/private/private.key -out /etc/ssl/certs/serveur.crt
+sudo openssl x509 -req -days 365 -in /etc/ssl/certs/serveur.csr -signkey /etc/ssl/private/private.key -out /etc/ssl/certs/serveur.crt
 ```
 &NewLine;
 ## Il faut maintenant configurer nginx pour déployer le site en éditant le fichier de configuration avec la commande  /etc/nginx/sites-available/default que l'on modifiera comme tel :
