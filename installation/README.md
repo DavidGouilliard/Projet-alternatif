@@ -11,17 +11,17 @@ sudo apt-get install nginx
 sudo systemctl status nginx
 ```
 &NewLine;
-## il faut installer php-fpm, et les autres packages au cas où pour que nginx puisse gérer les pages php :
+## Il faut installer php-fpm, et les autres packages au cas où pour que nginx puisse gérer les pages php :
 ```
 sudo apt install php php-cli php-fpm php-json php-mysql php-zip php-gd  php-mbstring php-curl php-xml php-pear php-bcmath
 ```
 &NewLine;
-## on utilise cette commande pour vérifier que le service est bien installé et le daemon est actif :
+## On utilise cette commande pour vérifier que le service est bien installé et le daemon est actif :
 ```
 systemctl status php*-fpm.service
 ```
 &NewLine;
-## il faut générer les clefs et certificats pour sécuriser la connexion https :
+## Il faut générer les clefs et certificats pour sécuriser la connexion https :
 ```
 sudo apt install openssl
 ```
