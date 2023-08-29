@@ -73,7 +73,7 @@ server {
     #Pour que nginx puisse traiter les fichiers php
     location ~ \.php$ {
         try_files $uri =404;
-        fastcgi_pass unix:/var/run/php5-fpm.sock;
+        fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
         fastcgi_index index.php;
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include fastcgi_params;
