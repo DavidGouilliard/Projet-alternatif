@@ -1,5 +1,5 @@
 # Etapes pour installer un serveur pouvant déployer notre site sur Debian 11 :
-` `
+&NewLine;
 
 ## Tout d'abord nous devons installer le serveur applicatif :
 ```
@@ -21,7 +21,7 @@ sudo apt install php php-cli php-fpm php-json php-mysql php-zip php-gd  php-mbst
 systemctl status php*-fpm.service
 ```
 ` `
-## il faut générer les clefs et certificat pour sécuriser la connexion https :
+## il faut générer les clefs et certificats pour sécuriser la connexion https :
 ```
 sudo apt install openssl
 ```
