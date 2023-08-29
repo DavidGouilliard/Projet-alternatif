@@ -18,9 +18,12 @@ systemctl status php*-fpm.service
 ```
 sudo apt install openssl
 ```
+```
 openssl genrsa -out /etc/ssl/private/private.key 4096
 ```
+```
 openssl req -new -key /etc/ssl/private/private.key -out /etc/ssl/certs/serveur.csr
+```
 ```
 openssl x509 -req -days 365 -in /etc/ssl/certs/serveur.csr -signkey /etc/ssl/private/private.key -out /etc/ssl/certs/serveur.crt
 ```
