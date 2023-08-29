@@ -67,11 +67,18 @@ server {
     ssl_protocols       TLSv1.2 TLSv1.1;
 
     #chemin du certificat et clef serveur
-    ssl_certificate     /chemin/vers/cert.pem;
-    ssl_certificate_key /chemin/vers/key.key;
+    ssl_certificate     /etc/ssl/certs/serveur.crt;
+    ssl_certificate_key /etc/ssl/private/private.key;
 
     #traitement de l'URI: ce qui suit le nom de domaine
     location / {
         try_files $uri $uri/ =404;
 }
+```
+&NewLine;
+
+## On restart nginx pour appliquer les changements et vérifier qu'il n'y a pas d'erreurs
+
+```
+sudo systemctl restart nginx
 ```
