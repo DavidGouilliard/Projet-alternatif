@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Créer un compte</title>
+  <link rel="stylesheet" href="signup.css" />
+
+    <!-- La favicon n'apparait pas dans le live de vscode et n'apparaît pas dans le browser si on écrit href="/img/favicon.ico" avec un / avant img donc -->
+    <link rel="icon" type="img/ico" href="img/favicon.ico" />
+
+</head>
+<body>
+    <h2>Login</h2>
+
+<!--On utilise post plutôt que get pour que les données en input ne s'affichent pas dans l'url -->
+<form action="/signup.php" method="post">
+  <label for="name">Identifiant:</label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  <br>
+  <label for="name">Prénom:</label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  <br>
+  <label for="name">Nom:</label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  <br>
+  <label for="name">Email:</label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  <br>
+  <label for="name">Adresse postale:</label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  <br>
+  <label for="start">Start date:</label>
+
+<input type="date" id="start" name="Date de naissance" value="" min="1850-01-01" max="" />
+  <label for="pswd">Mot de passe:</label><br>
+  <!-- il faut mettre le type password pour que le mote de passe ne s'affiche pas en clair -->
+  <input type="password" id="pswd" name="pswd" value=""><br><br>
+  <label for="pswd">Confirmer le mot de passe:</label><br>
+  <input type="password" id="pswd" name="pswd" value=""><br><br>
+  <input type="submit" value="Valider">
+</form> 
+</html>
