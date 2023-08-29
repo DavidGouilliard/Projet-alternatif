@@ -44,9 +44,9 @@ server {
     listen [::]:80;
 
     #nom de domaine
-    server_name domain.com;
+    server_name intergalactiques.com;
 
-    #rediréction des connexions http vers https
+    #redirection des connexions http vers https
     return 301 https://$server_name$request_uri;
 }
 
@@ -55,10 +55,10 @@ server {
     listen 443;
     listen [::]:443;
 
-    server_name domain.com;
+    server_name intergalactiques.com;
 
     #chemin du repertoire racine sur le serveur (on choisira le repertoire de notre git repository où sont nos pages)
-    root /var/www/html;
+    root /home/vboxuser/Documents/Projet-alternatif/site;
 
     #fichiers index que le serveur doit servir dans le repertoire racine
     index index.html
