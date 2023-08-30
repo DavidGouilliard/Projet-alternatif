@@ -70,9 +70,14 @@ server {
     ssl_certificate     /etc/ssl/certs/serveur.crt;
     ssl_certificate_key /etc/ssl/private/private.key;
 
-    #traitement de l'URI: ce qui suit le nom de domaine
-    location / {
-        try_files $uri $uri/ =404;
+    #Pour que nginx puisse traiter les fichiers php
+    location ~ \.php$ {
+        try_files $uri =404;
+        fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
 }
 ```
 &NewLine;
@@ -81,4 +86,12 @@ server {
 
 ```
 sudo systemctl restart nginx
+```
+&NewLine;
+
+## Installation de système de gestion de base de données
+
+```
+sudo apt install mariadb-test mariadb-server-core-10.5
+
 ```

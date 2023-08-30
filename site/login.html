@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Login</title>
+  <title>Identification</title>
   <link rel="stylesheet" href="login.css" />
 
     <!-- La favicon n'apparait pas dans le live de vscode et n'apparaît pas dans le browser si on écrit href="/img/favicon.ico" avec un / avant img donc -->
@@ -14,17 +14,14 @@
 <body>
     <h2>Login</h2>
 
-<!--The <input type="submit"> defines a button for submitting the form data to a form-handler.
-Notice that each input field must have a name attribute to be submitted.
-
-If the name attribute is omitted, the value of the input field will not be sent at all.-->
-
-<form action="/login.php">
+<!--On utilise post plutôt que get pour que les données en input ne s'affichent pas dans l'url -->
+<form action="/login.php" method="post">
   <label for="name">Identifiant:</label><br>
   <input type="text" id="name" name="name" value=""><br>
   <br>
   <label for="pswd">Mot de passe:</label><br>
-  <input type="text" id="pswd" name="pswd" value=""><br><br>
+  <!-- il faut mettre le type password pour que le mote de passe ne s'affiche pas en clair -->
+  <input type="password" id="pswd" name="pswd" value=""><br><br>
   <input type="submit" value="Valider">
 </form> 
 </html>
