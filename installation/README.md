@@ -87,8 +87,9 @@ server {
 ```
 sudo systemctl restart nginx
 ```
+&NewLine;
 
-## Installation de gestion de base de données
+## Installation de système de gestion de base de données
 
 ```
 sudo apt install mariadb-test mariadb-server-core-10.5
