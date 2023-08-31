@@ -21,7 +21,7 @@ sudo apt install php php-cli php-fpm php-json php-mysql php-zip php-gd  php-mbst
 systemctl status php*-fpm.service
 ```
 &NewLine;
-## Il faut générer les clefs et certificats pour sécuriser la connexion https :
+## Il faut générer les clefs et certificats pour sécuriser la connexion https : 
 ```
 sudo apt install openssl
 ```
@@ -52,8 +52,9 @@ server {
 
 server {
 
-    listen 443;
-    listen [::]:443;
+    #Il faut absolument ajouter ssl sinon la redirection ne fonctionnera pas
+    listen 443 ssl;
+    listen [::]:443 ssl;
 
     server_name intergalactiques.com;
 
