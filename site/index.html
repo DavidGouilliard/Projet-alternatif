@@ -6,18 +6,40 @@
   
   <title>Accueil</title>
   <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.cdnfonts.com/css/neuropol-2" rel="stylesheet">
 
     <!-- La favicon n'apparait pas dans le live de vscode et n'apparaît pas dans le browser si on écrit href="/img/favicon.ico" avec un / avant img donc -->
     <link rel="icon" type="img/ico" href="img/favicon.ico" />
 
 </head>
 <body>
-
-    <ul>
-        <li><a href="signup.html">Créer un compte</a></li>
-        <li><a href="login.html">Se connecter</a></li>
-        <li><a href="about.html">A propos</a></li>
-        <li><a href="planet.html">Planètes</a></li>
-      </ul> 
-
+      <div class="background-image"></div>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">A propos</a></li>
+          <li><a href="planet.html">Planetes</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+        </ul>
+        <div class="auth-buttons">
+          <a class="button" href="signup.html">Creer un compte</a>
+          <a class="button" href="login.html">Se connecter</a>
+        </div>
+      </nav>
+    
+      <div class="mid-section">
+        <div class="label"><p class="envolez-vous-vers">Envolez vous vers&nbsp;les etoiles !</p></div>
+        <a class="button" href="#explorer-section">Explorer</a>
+      </div>
+      <div class="label">
+        <p class="osez-l-impossible-r">
+        Osez l&#39;impossible,&nbsp;&nbsp;!&nbsp;&nbsp;Réservez&nbsp;&nbsp;votre voyage intergalactique dès
+        aujourd&#39;hui et partez vers l&#39;infini
+        </p>
+        </div>
+    </body>
 </html>
