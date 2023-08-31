@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.cdnfonts.com/css/neuropol-2" rel="stylesheet">
+  
+  <title>Identification</title>
+  <link rel="stylesheet" href="login.css" />
+
+    <!-- La favicon n'apparait pas dans le live de vscode et n'apparaît pas dans le browser si on écrit href="/img/favicon.ico" avec un / avant img donc -->
+    <link rel="icon" type="img/ico" href="img/favicon.ico" />
+
+</head>
+<body>
+    <div class="background-image"></div>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">A propos</a></li>
+          <li><a href="planet.html">Planetes</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+        </ul>
+        <div class="auth-buttons">
+          <a class="button" href="signup.html">Creer un compte</a>
+          <a class="button" href="login.html">Se connecter</a>
+        </div>
+      </nav>
+
+<!--On utilise post plutôt que get pour que les données en input ne s'affichent pas dans l'url -->
+<form action="/login.php" method="post">
+  <label for="name">Identifiant:</label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  <br>
+  <label for="pswd">Mot de passe:</label><br>
+  <!-- il faut mettre le type password pour que le mote de passe ne s'affiche pas en clair -->
+  <input type="password" id="pswd" name="pswd" value=""><br><br>
+  <input type="submit" value="Valider">
+</form> 
+</html>
