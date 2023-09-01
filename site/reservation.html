@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Reservation</title>
+  <link rel="stylesheet" href="reservation.css" />
+  <link href="https://fonts.cdnfonts.com/css/neuropol-2" rel="stylesheet">
+
+    <!-- La favicon n'apparait pas dans le live de vscode et n'apparaît pas dans le browser si on écrit href="/img/favicon.ico" avec un / avant img donc -->
+    <link rel="icon" type="img/ico" href="img/favicon.ico" />
+
+</head>
+<body>
+  <div class="background-image"></div>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">A propos</a></li>
+          <li><a href="planet.html">Planetes</a></li>
+          <!--<li><a href="service.html">Services</a></li>-->
+          <li><a href="reservation.html">Reservation</a></li>
+        </ul>
+        <div class="auth-buttons">
+         <a href="login.html" class="login-btn">Log In</a>
+         <a href="signup.html" class="signup-btn">Sign Up</a>
+       </div>
+      </nav>
+    <form class="quick-reservation">
+   
+        <div class="container">
+           <header class="quick-reservation__header">
+              <h2 class="title">
+                 Reservation
+              </h2>
+              <div class="close-icon">
+                 <span></span>
+                 <span></span>
+              </div>
+           </header>
+           
+           <div class="quick-reservation__form">
+              <section class="form__content">
+                 <div class="row-wrapper">
+                    <div class="ele adults">
+                       <label for="adults">Adultes</label>
+                       <select name="adults" id="adults">
+                          <option value="hide">0</option>
+                          <option value="">1</option>
+                          <option value="">2</option>
+                          <option value="">3</option>
+                          <option value="">4</option>
+                          <option value="">5</option>
+                       </select>
+                    </div>
+                    <div class="ele children">
+                       <label for="children">Enfants</label>
+                       <select name="children" id="children">
+                          <option value="hide">0</option>
+                          <option value="">1</option>
+                          <option value="">2</option>
+                          <option value="">3</option>
+                          <option value="">4</option>
+                          <option value="">5</option>
+                       </select>
+                    </div>
+                    <div class="ele rate-type">
+                       <label for="rateType">Classe</label>
+                       <select name="rateType" id="rateType">
+                          <option value="hide">Extra</option>
+                          <option value="">Affaire</option>
+                          <option value="">Budget</option>
+                       
+                       </select>
+                    </div>
+                </br> </br> 
+                    <div class="ele rate-type">
+                        <label for="rateType">Location Combinaison</label>
+                        <select name="rateType" id="rateType">
+                           <option value="hide">Oui</option>
+                           <option value="">Non</option>
+                    
+                           
+                        </select>
+                     </div>
+                     <div class="ele rate-type">
+                        <label for="rateType">Location vehicule</label>
+                        <select name="rateType" id="rateType">
+                           <option value="hide">Oui</option>
+                           <option value="">Non</option>
+                        
+                           
+                        </select>
+                     </div>
+                 </div>
+               </br> </br> 
+               <div class="ele rate-type">
+                   <label for="rateType">Destination</label>
+                   <select name="rateType" id="rateType">
+                      <option value="hide">Rosalith-059</option>
+                      <option value="">Zephyr-8</option>
+                      <option value="">Galactron-7</option>
+                      <option value="">Zyralia</option>
+                      <option value="">Nova-12</option>
+                      
+                  
+                     </select>
+                  </div>
+                </br> </br> 
+                <div class="date-depart">
+                <label for="start">Date de depart:</label>
+                <input type="date" id="start" name="Date de départ" value="" min="" max="" />
+  
+               </div>
+               </br> </br> 
+                    <div class="ele first-name">
+                       <label for="firstName">Prenom</label>
+                       <input type="text" value="" placeholder="First Name" id="firstName">
+                    </div>
+                    <div class="ele last-name">
+                       <label for="lastName">Nom</label>
+                       <input type="text" value="" placeholder="Last Name" id="lastName">
+                    </div>    
+                 </div>
+                 <div class="row-wrapper">
+                    <div class="ele email-address">
+                       <label for="emailAddress">Adresse mail</label>
+                       <input type="email" value="" placeholder="Enter Email" id="emailAddress">
+                    </div>
+                </br> </br> 
+                    
+                 </div>
+                 
+              
+               </br> </br> </br> </br> 
+                 
+              </section>
+           </div>
+           
+
+           
+           <footer class="form__footer">
+              <div class="footer-wrapper">
+               
+                 <input type="button" value="Check-In" class="button">
+              </div>
+           </footer>
+        </div>
+           
+        </form>
+        
+        <p class="after" style="display: none; color: #777; font-weight: 200;">Reload the browser window everytime you close the reservation form to show up again.</p>
+        
+        
+</html>
