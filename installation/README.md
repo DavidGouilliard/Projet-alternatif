@@ -96,3 +96,15 @@ sudo systemctl restart nginx
 sudo apt install mariadb-test mariadb-server-core-10.5
 
 ```
+## Création de la base de données et des tables
+
+```
+sudo mariadb
+```
+
+```CREATE DATABASE intergalactiques;
+
+```
+```CREATE TABLE client ( Id_client INT PRIMARY KEY, id VARCHAR(50), mail VARCHAR(50), postal VARCHAR(50), nom VARCHAR(50), prenom VARCHAR(50), date_inscription DATE, date_naissance DATE, pswd VARCHAR(50), distance DECIMAL(15,2));
+```
+
