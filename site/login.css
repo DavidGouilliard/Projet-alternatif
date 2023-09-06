@@ -162,3 +162,39 @@ form {
     margin: 2rem;
     box-shadow: 0 0 10px black;
 }
+
+.credits-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.credits-content h1 {
+  font-size: 24px;
+  color: #7054ff;
+
+  margin-bottom: 20px;
+}
+
+.credits-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.credits-content li {
+  margin-bottom: 20px;
+}
+
+.credits-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-credit {
+  font-style: italic;
+  color: #888;
+  font-size: 16px;
+}
